@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Geoprocessing Analysis</h1>
+<h2>David Gray</h2>
+<h3>For this homework I wanted to determine which areas of land within the triangle area (Raleigh, Durham, Chapel-Hill)
+    were located within 1 mile of a fire station. In order to accomplish this, I imported a geojson of all fire stations
+    in NC and then used a buffer with a radius of 1-mile for each of the fire stations. I then imported a geojson of Census Urban Areas
+    and focused my map on the triangle area. I then used an intersection that intersected the buffer fire stations with
+    the urban areas in the triangle. When the map was completed I was able to see which areas had a large concetration
+    of fire stations such as Central Raleigh. Other areas to the North and South of Raleigh had places where you
+    could potentially live a few miles from the nearest fire station.
+
+    The implications of this analysis and map could be that if you are deciding between places to live in this area 
+    you may consider living in an area that is closer to a fire station rather than one that is not close to any.
+     </h3>
+<!-- Your map goes here -->
+<a href="./materials/Homework 8.png">
+    <img src="./materials/Homework 8.png" alt="my map" width='500px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="https://www.nconemap.gov/datasets/6f4fe0c55b0d4cbb92877e461d698c29_0/explore"> Fire Station Source </a>
+    <p></p>
+    <a href="https://www.nconemap.gov/datasets/2010-census-urban-areas/explore"> Census Urban Area Source </a>
+
+</body>
+</html>
